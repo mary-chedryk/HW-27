@@ -1,0 +1,53 @@
+.box {
+    position: relative;
+    width: 300px;
+    height: 700px;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6a6f90a7;
+    transform: translateX(-80%);
+    transition: transform 250ms ease-in-out;
+}
+
+.box:hover .overlay {
+    transform: translatey(0);
+}
+
+.menu-box {
+    writing-mode: vertical-lr;
+}
+
+.menu-insidebox {
+    text-orientation: mixed;
+}
+
+.menu {
+    padding-left: 240px;
+}
+
+.list {
+padding-top: 100px;
+}
+
+.item {
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+.item:hover {
+    color: rgb(129, 129, 206);
+}
+h1 {
+    color: #fff;
+}
+svg {
+    fill: rgb(162, 162, 227);
+}
